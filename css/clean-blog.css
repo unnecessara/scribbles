@@ -185,7 +185,7 @@ header.masthead .overlay {
 }
 
 header.masthead .overlay-post {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 header.masthead .page-heading,
@@ -332,11 +332,23 @@ header.masthead .post-heading .meta a {
 }
 
 .post-content .post-sublist {
-  border: thin dashed lightgray;
-  background: #eee;
+  background: #f1f1f1;
   padding: 10px;
-  margin: 30px;
+  margin: 50px 30px;
   font-size: smaller;
+}
+
+.post-content .post-quote {
+  background: #f1f1f1;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 50px 30px;
+  text-align: center;
+  font-size: smaller;
+}
+
+.post-content .post-img {
+  width: 110%;
 }
 
 .floating-label-form-group {
